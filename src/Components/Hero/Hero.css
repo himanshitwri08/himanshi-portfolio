@@ -12,7 +12,7 @@
 }
 
 .hero h1{
-    font-size: 90px;
+    font-size: 65px;
     text-align: center;
     width:70%;
     font-weight:600;
@@ -35,12 +35,27 @@
 .hero-action{
     display:flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom:50px;
     gap:22px;
 }
 
 .hero-connect{
-    padding:25px 45px
+    padding:20px 40px;
+    cursor:pointer;
+    background: linear-gradient(267deg, #DA7C27 0.36%, #B923E1 100.08%);
+    border-radius: 50px;
+}
+
+.hero-resume{
+    padding:17px 70px;
+    border-radius: 50px;
+    border:2px solid #fff;
+    /* font-size:23px; */
+    cursor:pointer;
+}
+.hero-connect:hover, .hero-resume:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
 }
