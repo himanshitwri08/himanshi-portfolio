@@ -30,7 +30,6 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-    //   console.log("Success", res);
      alert(res.message);
     }
   };
@@ -51,10 +50,6 @@ const Contact = () => {
                         <img src={mail_icon} alt="mail" />
                         <p>himanshitiwari960@gmail.com</p>
                     </div>
-                    {/* <div className="contact-detail">
-                        <img src={call_icon} alt="call" />
-                        <p>+91 7668060085</p>
-                    </div> */}
                     <div className="contact-detail">
                         {/* <img src={call_icon} alt="call" /> */}
                         <FontAwesomeIcon icon={faGithub} style={{ color: "#d8d8d8" }} className="contact-icon" />
