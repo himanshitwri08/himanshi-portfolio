@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import './ScrollToTop.css'; // Assuming you have a CSS file for styling
+import './ScrollToTop.css'; 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // scroll hone par button dikhana/hatana
+  
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.scrollY > 300) {
@@ -19,11 +19,11 @@ const ScrollToTop = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  // scroll top function
+
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // smooth scroll
+      behavior: "smooth", 
     });
   };
 
