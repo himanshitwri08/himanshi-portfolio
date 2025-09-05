@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
-import theme_pattern from '../../assets/theme_pattern.svg';
-import mywork_data from '../../assets/mywork_data';
+import theme_pattern from '/assets/theme_pattern.svg';
+import mywork_data from "../../mywork_data.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Import the specific icons you need
 import { faGithub } from '@fortawesome/free-brands-svg-icons';

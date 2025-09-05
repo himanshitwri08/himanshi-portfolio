@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import theme_pattern from '../../assets/theme_pattern.svg'
-import mail_icon from '../../assets/mail_icon.svg'  
-import location_icon from '../../assets/location_icon.svg'
+import theme_pattern from '/assets/theme_pattern.svg'
+import mail_icon from '/assets/mail_icon.svg'  
+import location_icon from '/assets/location_icon.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 

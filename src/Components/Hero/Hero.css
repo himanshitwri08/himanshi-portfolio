@@ -78,6 +78,8 @@
   max-width: 300px;
   width: 100%;
   text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 /* hover */
@@ -94,7 +96,7 @@
 }
 
 
-@media (max-width: 840px) {
+@media (max-width: 740px) {
   .hero {
     padding-top: 30px;
     gap: 18px;
