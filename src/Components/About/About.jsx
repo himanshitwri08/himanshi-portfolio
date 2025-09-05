@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import profile_about from '../../assets/profile_about.png'
-// import about_profile from '../../assets/about_profile.jpg'
 import theme_pattern from '../../assets/theme_pattern.svg'
 const About = () => {
   return (
@@ -31,15 +30,15 @@ const About = () => {
                 </div>
                 <div className="about-each-skill">
                     <p>React JS</p>
-                    <hr style={{width: "70%"}}></hr>
-                </div>
-                <div className="about-each-skill">
-                    <p>JavaScript</p>
                     <hr style={{width: "60%"}}></hr>
                 </div>
                 <div className="about-each-skill">
-                    <p>Tailwind CSS</p>
+                    <p>JavaScript</p>
                     <hr style={{width: "50%"}}></hr>
+                </div>
+                <div className="about-each-skill">
+                    <p>Tailwind CSS</p>
+                    <hr style={{width: "40%"}}></hr>
                 </div>
             </div>
         </div>

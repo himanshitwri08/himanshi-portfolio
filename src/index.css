@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding:0;
 }
@@ -7,4 +7,38 @@ body{
   background-color: #161513;
   color: white;
   font-family: 'outfit';
+} */
+
+/* main.css - global fixes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: #161513; /* keep your dark page background */
+  color: white;
+  font-family: 'Outfit', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* central page container to avoid huge side gutters */
+.container, #root, .page {
+  max-width: 1200px;
+  margin: 0 auto;           /* center horizontally */
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+/* visible scrollbar on dark bg */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,#B923E1,#DA7C27);
+  border-radius: 20px;
+  border: 2px solid rgba(0,0,0,0.18);
 }

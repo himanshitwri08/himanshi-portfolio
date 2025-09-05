@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
         <div className="contact-section">
             <div className="contact-left">
-                <h1>Let's Talk</h1>
+                <h1 className='gradient-text'>Let's Talk</h1>
                 <p>If you have any questions or just want to chat, feel free to reach out!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
@@ -51,7 +51,6 @@ const Contact = () => {
                         <p>himanshitiwari960@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        {/* <img src={call_icon} alt="call" /> */}
                         <FontAwesomeIcon icon={faGithub} style={{ color: "#d8d8d8" }} className="contact-icon" />
                         <p>https://github.com/himanshitwri08</p>
                     </div>
@@ -80,3 +79,4 @@ const Contact = () => {
 }
 
 export default Contact
+
