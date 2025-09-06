@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import profile_about from '/assets/profile_about.png'
-import theme_pattern from '/assets/theme_pattern.svg'
+import profile_about from '../../assets/profile_about.png'
+import theme_pattern from '../../assets/theme_pattern.svg'
 const About = () => {
   return (
     <div id="about" className="about">

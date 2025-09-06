@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import profile from '/assets/profile.png'
+import profile from '../../assets/profile.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
