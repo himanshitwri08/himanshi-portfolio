@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import profile from '../../assets/profile.png'
-import resume from '../../assets/Himanshi_Tiwari_Resume.pdf'  // ✅ Resume import
+import resume from '../../assets/Himanshi_Tiwari_Resume.pdf' 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
